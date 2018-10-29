@@ -1,0 +1,75 @@
+.header{
+  background-color: #f1f1f1;
+  height: 70px;
+  margin-bottom: 20px;
+}
+#logo-header{
+  width: 50px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  display: block;
+}
+.blue-line{
+  height: 1px;
+  width: 100%;
+  background-color: #42A5F5;
+  margin-top: 12px;
+}
+.bold{
+  font-weight:bold;
+}
+.categories-button{
+  width: 70%;
+}
+.left,.right{
+  margin-left: 70px;
+  height: 35px;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 30px;
+  margin-bottom:10px;
+}
+.right{
+  margin-left: 0px;
+}
+.article-content1{
+  width: 100%;
+  margin:20px 0px 20px 0px;
+  object-fit: cover;
+  height: 200px;
+}
+.admin-image,.date-image{
+  height: 25px;
+  margin-top: 20px;
+}
+.admin-name,.date-text{
+  margin-left: 30px;
+  margin-top: -20px;
+}
+.button-article{
+  margin:20px 0px 20px 0px;
+}
+.big-article{
+  width: 100%;
+  margin-top: 50px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom:50px;
+}
+#page-button{
+  display: flex;
+  justify-content: center;
+  margin-bottom:50px;
+}
+.margin-left10{
+  margin-left:10px;
+}
+.footer{
+  background-color: #f7f7f7;
+}
+#logotype{
+  height: 20px;
+  margin:15px;
+}

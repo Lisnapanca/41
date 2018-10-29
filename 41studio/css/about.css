@@ -1,0 +1,107 @@
+.header{
+  background-color: #f1f1f1;
+  height: 70px;
+}
+#logo-header{
+  width: 50px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  display: block;
+}
+.navbar{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.navbar a{
+  color: #5d5a5a;
+}
+.navbar a:hover{
+  text-decoration: none;
+}
+#home-link{
+  margin-left: 280px;
+}
+#blog-link{
+  margin-right: 280px;
+}
+.jumbotron{
+  background-image: url(../image/room.png);
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+#jumbotron-logo{
+  width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 335px;
+}
+.bold{
+  font-weight: bold;
+}
+.margin-400{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+#company-profile{
+  margin-top: 50px;
+}
+.btn-filter{
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 8px;
+  border-style: solid;
+  margin-left: 625px;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+.transparent{
+  background-color:transparent;
+}
+.employee-profile{
+  width: 250px;
+  float: right;
+  margin-top: 75px;
+  margin-right:50px;
+  margin-bottom: 50px;
+}
+.profile{
+  margin-top: 125px;
+}
+.purple-bar{
+  color: white;
+  padding:15px 15px 10px 15px;
+  background-color:#7d53c8;
+}
+.footer{
+  height: 100px;
+  margin-bottom:20px;
+  background-color: #42A5F5;
+  color: white;
+  padding-top: 40px;
+}
+.learn-more-button{
+  border-color:#66bb69;
+  color: #66bb69;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 120px;
+  height: 30px;
+  border-radius:5px;
+  border-style: solid;
+}
+.content-7{
+  height: 250px;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../image/monitor.jpg);
+}

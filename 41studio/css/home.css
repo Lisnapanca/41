@@ -1,0 +1,250 @@
+.header{
+  background-color: #f1f1f1;
+  height: 70px;
+}
+#logo-header{
+  width: 50px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  display: block;
+}
+.navbar{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.navbar a{
+  color: #5d5a5a;
+}
+.navbar a:hover{
+  text-decoration: none;
+}
+#home-link{
+  margin-left: 280px;
+}
+#blog-link{
+  margin-right: 280px;
+}
+.content-1{
+  width: 100%;
+  height: auto;
+  margin-top: -15px;
+/*font-family: nunito helvetica neue;*/
+}
+.content1-left-title{
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+.content1-left{
+  background-image: linear-gradient(to top, #233e64, #305281, #3d66a0, #4a7cc0, #5892e1);
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+#text-left-content1,#web-content{
+  padding-left: 100px;
+  padding-right:100px;
+}
+#service-button {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 170px;
+    height: 45px;
+    margin-left: 238px;
+    border-color: white;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    border-style:solid;
+}
+#content1-logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 130px;
+    margin-left: -390px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+#code-image{
+  width: 105%;
+  height: 100%;
+  object-fit: cover;
+}
+#web-image{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+#web-text{
+  margin-left:65px;
+  margin-top: 15px;
+  margin-bottom:100px;
+}
+#web-content{
+  margin-top:200px;
+}
+#findout-button{
+  background-color: transparent;
+  color: #f2a629;
+  width: 100px;
+  height: 30px;
+  border-color:#f2a629;
+  border-radius:5px;
+  margin-left: 336px;
+  margin-top:10px;
+  border-style: solid;
+}
+.category-bar{
+  width: 100%;
+  height: 40px;
+  background-color: #f2a629;
+  color: white;
+  padding-top: 10px;
+  margin-left:0px;
+}
+.category-button{
+  background-color: transparent;
+  border:none;
+  margin-left: auto;
+  margin-right: auto;
+}
+#findout-text{
+  padding-top:2px;
+}
+.content3{
+  width: 100%;
+}
+#business-text,#development-text{
+  margin-left:585px;
+  margin-top: 80px;
+}
+hr{
+  width: 200px;
+}
+#business-content,#development-content{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom:50px;
+}
+#project-based-image,#extented-team-image{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#project-based-text{
+  color: #66bb69;
+}
+#extended-team-text{
+  color: #ed5250;
+}
+.learn-more-button{
+  border-color:#66bb69;
+  color: #66bb69;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 120px;
+  height: 30px;
+  border-radius:5px;
+  border-style: solid;
+}
+.red-button{
+  color:#ed5250;
+  border-color:#ed5250;
+}
+#development-process-image{
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+.purple-button{
+  width: 100px;
+  color: #7e57c3;
+  border-color:#7e57c3;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+}
+#saying-text{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#mark-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: right;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+#saying-content{
+  margin-right: 280px;
+  display: block;
+  margin-left: 45px;
+  margin-top: 50px;
+}
+#people-name{
+  margin-left: 60px;
+}
+.blue-bar{
+  background-color: #42A5F5;
+}
+#blog-text{
+  margin-bottom: 20px;
+  margin-top:30px;
+  font-weight:bold;
+}
+.red-color{
+  border-color: red;
+}
+.float-right{
+  float: right;
+}
+.float-left{
+  float: left;
+}
+.blog-place{
+  padding-top: 10px;
+  height: 50px;
+  margin:20px;
+  border:1px solid grey;
+}
+.content-6{
+  margin-bottom:50px;
+}
+.content-7{
+  height: 250px;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../image/monitor.jpg);
+}
+#desc-left{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.center{
+  margin-right:auto;
+  margin-left: auto;
+  display: block;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 25px;
+}
+.footer{
+  height: 100px;
+  margin-top:50px;
+  margin-bottom:20px;
+  background-color: #42A5F5;
+  color: white;
+  padding-top: 40px;
+}
+.title-content7{
+  margin-top:50px;
+}

@@ -1,0 +1,17 @@
+font-family
++page 1
+-content1 slidshow
+-content2 tab list
+-content3 text in image
+-content4 text in image
+-content4 button learn more
+-content5 hr
+-content5 tablist
+-background image
+-footer button back to top
+
++page 2
+-text in jumbotron
+-hr in all content
+-coloring button
+-bottom image in footer
