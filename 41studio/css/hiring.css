@@ -1,0 +1,21 @@
+#android{
+  height: 380px;
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-bottom: 75px;
+}
+.bold{
+  font-weight:bold;
+}
+#title{
+  margin-top: 250px;
+  font-size: 30px;
+}
+.margin-100{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.margin-400{
+  margin-left: 400px;
+  margin-right: 400px;
+}
