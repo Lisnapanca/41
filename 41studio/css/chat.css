@@ -1,0 +1,62 @@
+.header-chat{
+  width: 80%;
+  height: 50px;
+  background-color: #62a3fa;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+.body-chat{
+  width: 80%;
+  height: 100%;
+  background-color:white;
+  margin:0 auto;
+  margin-top:-5px;
+}
+#admin-image{
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  margin-top: 15px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.box-chat{
+  color: white;
+  width: 90%;
+  border-radius: 30px;
+  height: 40px;
+  background-color: #62a3fa;
+  margin-top: 17px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.typing-message{
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  margin-top: 300px;
+  margin-bottom: -330px;
+}
+.typing-fitur{
+  width: 25px;
+  margin-top: 7px;
+  margin-left: -15px;
+}
+#typing-text{
+  margin-top: 10px;
+  margin-left:10px;
+  color: grey;
+}
+.margin-left5{
+  margin-left:5px;
+}
+.color-white{
+  color: white;
+}
+.admin-name{
+  margin-left: 10px;
+    padding-top: 13px;
+}
