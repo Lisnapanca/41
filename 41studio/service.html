@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link rel="stylesheet" type="text/css" href="css/service.css">
 
     <title>Service</title>
@@ -18,34 +20,34 @@
     </div>
     <div class="container-fluid">
       <div class="navbar">
-        <a id="home-link" href="#"><h2>Home</h2></a>
-        <a href="#"><h2>Services</h2></a>
-        <a href="#"><h2>Portofolios</h2></a>
-        <a href="#"><h2>Jobs</h2></a>
-        <a href="#"><h2>About Us</h2></a>
-        <a href="#"><h2>Contact</h2></a>
-        <a id="blog-link" href="#"><h2>Blog</h2></a>
+        <a id="home-link" class="hvr-underline-from-center" href="home.html"><h2>Home</h2></a>
+        <a href="service.html" class="hvr-underline-from-center"><h2>Services</h2></a>
+        <a href="portofolio.html" class="hvr-underline-from-center"><h2>Portofolios</h2></a>
+        <a href="job.html" class="hvr-underline-from-center"><h2>Jobs</h2></a>
+        <a href="about.html" class="hvr-underline-from-center"><h2>About Us</h2></a>
+        <a href="contact.html" class="hvr-underline-from-center"><h2>Contact</h2></a>
+        <a id="blog-link" class="hvr-underline-from-center" href="article.html"><h2>Blog</h2></a>
       </div>
       <div class="jumbotron">
+        <h2 class="jumbotron-title centered bold">Agile Ruby On Rails Development Company</h2>
+        <hr class="jumbotron-line">
+        <h5 class="jumbotron-content size-15">We provide custom software solutions to perfectly suit every types of your business needs. Our fullstack Ruby On Rails developers are expert to the latest open source technologies such as Ruby On Rails, NodeJS and more..</h5>
         <img id="jumbotron-logo" src="image/41studio-logo.png">
+        <img id="support-logo" src="image/support.png">
       </div>
       <div class="what-we-do">
-        <h2 class="text-center bold">What We Do</h2>
-        <h5 id="content-center" class="text-center">Below are all the areas we are experts in, areas where we collaborate with our clients and help
-them build great products. Pick up the ones that fit you most</h5>
+        <h2 class="text-center bold size-30">What We Do</h2>
+        <hr class="red-line">
+        <h5 id="content-center" class="text-center size-15">Below are all the areas we are experts in, areas where we collaborate with our clients and help them build great products. Pick up the ones that fit you most</h5>
       </div>
       <div class="row content-1">
         <div class="col-md-5">
           <img id="front-end-image" src="image/front-end.png">
         </div>
         <div class="col-md-7">
-          <h3 class="category-text">Front-end Development</h3>
-          <h5 class="category-content">The look of your website is the mirror of your whole business and your offers, it’s reflecting your creativity and will make you looked different from others.
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
+          <h3 class="category-text mar-top-30">Front-end Development</h3>
+          <hr class="blue-line">
+          <h5 id="front-text" class="category-content">The look of your website is the mirror of your whole business and your offers, it’s reflecting your creativity and will make you looked different from others.
           <br>
           <br>
           As a Ruby On Rails and Mobile App Development Company, we understand how important the design matter! that’s why we offer you the web design service to make your website and or mobile apps look more interesting and attractive when visitors come by. Tell us what look you like or simply trust us to make it different based on your business goals.</h5>
@@ -54,6 +56,7 @@ them build great products. Pick up the ones that fit you most</h5>
       <div class="row content-2">
         <div class="col-md-7">
           <h3 class="category-text-left">Mobile Development</h3>
+          <hr class="green-line margin-left-110">
           <h5 class="category-content-left">With us you can create the mobile applications of your own and give you a great experience in exploring the technology through your hands. There are many mobile applications you can rely on for your daily and business activities, such as social media, travel, translator, GPS, or even your mobile version of your website. Our mobile developer team are expert with iOS Development, Android Development as well as with React-Native Development for hybrid mobile app development. Tell us your plan and we’ll make it happen.</h5>
         </div>
         <div class="col-md-5">
@@ -65,21 +68,24 @@ them build great products. Pick up the ones that fit you most</h5>
           <img id="front-end-image" src="image/desktop-dev.png">
         </div>
         <div class="col-md-7">
-          <h3 class="category-text">Desktop Development</h3>
-          <h5 class="category-content">We build cross platform desktop apps (Mac, Windows and Linux) for all your business needs with JavaScript, HTML & CSS using Electron.</h5>
+          <h3 id="desktop-dev-text" class="category-text">Desktop Development</h3>
+          <hr class="yellow-line">
+          <h5 class="category-content mar-top-50">We build cross platform desktop apps (Mac, Windows and Linux) for all your business needs with JavaScript, HTML & CSS using Electron.</h5>
         </div>
       </div>
       <div class="row content-4">
         <div class="col-md-7">
-          <h3 class="category-text-left">Back-end Development</h3>
-          <h5 class="category-content-left">Web applications development is our core area of expertise and passion. We build elegant and functional web solutions using Ruby On Rails, React and more. Simple and intuitive or extensive and complex - we can build it with you. Business Apps Smart and effective solutions for your business. Clean, intuitive, extremely easy to use. Consumer Apps Let your idea grow into a star with a stylish and engaging web app. Magic success formula: value your business brings + awesome Ruby On Rails implementation. Entertainment Apps It is not all about work, right? Make real fans out of your users with a beautiful, engaging and fun web app!</h5>
+          <h3 class="category-text-left mar-top-0">Back-end Development</h3>
+          <hr class="red-line mar-left-110">
+          <h5 class="category-content-left">Web applications development is our core area of expertise and passion. We build elegant and functional web solutions using Ruby On Rails, React and more. Simple and intuitive or extensive and complex - we can build it with you. <br> <b>Business Apps</b> <br>Smart and effective solutions for your business. Clean, intuitive, extremely easy to use. <br><b>Consumer Apps</b> <br> Let your idea grow into a star with a stylish and engaging web app. Magic success formula: value your business brings + awesome Ruby On Rails implementation. <br><b> Entertainment Apps </b> <br> It is not all about work, right? Make real fans out of your users with a beautiful, engaging and fun web app!</h5>
         </div>
         <div class="col-md-5">
-          <img id="mobile-dev-image" src="image/back-end.png">
+          <img id="mobile-dev-image" src="image/back-end.svg">
         </div>
       </div>
-      <h2 class="text-center">Project Based</h2>
-      <h5 class="text-center margin">f you have a ripe idea for your project with specific budgets and time completion, we suggest you to choose a project based plan and here’s the process flow as described below</h5>
+      <h2 id="project-based" class="text-center bold">Project Based</h2>
+      <hr class="brown-line">
+      <h5 id="project-based-text" class="text-center margin">if you have a ripe idea for your project with specific budgets and time completion, we suggest you to choose a project based plan and here’s the process flow as described below</h5>
       <button class="btn-default learn-more-button">LEARN MORE</button>
       <div class="row content-5">
         <div class="col-md-6">
@@ -98,68 +104,27 @@ them build great products. Pick up the ones that fit you most</h5>
           </div>
         </div>
       </div>
-      <div class="row triangle-brown">
-        <div class="col-md-6">
-          <h4 class="text-center">Project Based</h4>
-        </div>
-        <div class="col-md-6">
-          <h4 class="text-center">Extended Team</h4>
-        </div>
-      </div>
-      <div class="content-6">
-        <h2 class="text-center bold">Technology</h2>
-        <h5 class="text-center margin">We use the most cutting-edge technologies to build outstanding applications whether it be for
-web, desktop or mobile platform. We are Ruby On Rails expert, but building great products
-would not be possible without knowledge and extensive usage of many other things, e.g.
-HaProxy, Varnish, Nginx, Vue JS, React JS, Angular JS, Ionic, Electron, PostgreSQL, Redis,
-Redshift, AWS, Heroku, Swift and many more.</h5>
-      </div>
-      <div id="service-content">
-          <div class="techo-parent">
-            <div class="tecno-icon">
-              <div id="rails" data-toggle="tooltip" title="Rails"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="react" data-toggle="tooltip" title="React"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="android" data-toggle="tooltip" title="Android"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="ios" data-toggle="tooltip" title="iOS"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="postgre" data-toggle="tooltip" title="PostgreSQL"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="heroku" data-toggle="tooltip" title="Heroku"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="laravel" data-toggle="tooltip" title="Laravel"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="ios" data-toggle="tooltip" title="iOS"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="react" data-toggle="tooltip" title="React"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="heroku" data-toggle="tooltip" title="Heroku"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="postgre" data-toggle="tooltip" title="PostgreSQL"></div>
-            </div>
-            <div class="tecno-icon">
-              <div id="laravel" data-toggle="tooltip" title="Laravel"></div>
-            </div>
+      <div class="row category-bar">
+          <div class="col-md-6 text-center">
+            <button class="category-button"><h4 class="bold">Project Based</h4></button>
           </div>
+          <div class="col-md-6 text-center">
+            <button class="category-button"><h4 class="bold">Extended Team</h4></button>
+          </div>
+        </div>
+      <div class="content-6">
+        <h2 class="text-center bold font-30">Technology</h2>
+        <hr class="green-line no-margin">
+        <h5 class="text-center margin tecno-content">We use the most cutting-edge technologies to build outstanding applications whether it be for web, desktop or mobile platform. We are Ruby On Rails expert, but building great products would not be possible without knowledge and extensive usage of many other things, e.g. HaProxy, Varnish, Nginx, Vue JS, React JS, Angular JS, Ionic, Electron, PostgreSQL, Redis, Redshift, AWS, Heroku, Swift and many more.</h5>
       </div>
-      <h2 class="text-center bold">Hire Ruby Expert Now!</h2>
-      <h5 class="text-center">Want to discuss your product or partnership? We’re always ready to help</h5>
-      <button class="btn-default learn-more-button">LEARN MORE</button>
+      <div class="rails"></div>
+      <h2 class="text-center bold size-30">Hire Ruby Expert Now!</h2>
+      <hr class="purple-line">
+      <h5 class="text-center size-15 mar">Want to discuss your product or partnership? We’re always ready to help</h5>
+      <button class="btn-default learn-more-button purple">LEARN MORE</button>
       <div class="row footer">
         <div class="col-md-6">
-          <h4>Copyright 2018 41Studio All Right Reserved</h4>
+          <h4 class="bold size-20"> &copy Copyright 2018 41Studio All Right Reserved</h4>
         </div>
         <div class="col-md-6"></div>
       </div>

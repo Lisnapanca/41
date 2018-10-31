@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link rel="stylesheet" type="text/css" href="css/portofolio.css">
 
     <title>Portofolios</title>
@@ -16,24 +18,25 @@
     <div class="header">
       <img id="logo-header" src="image/41studio-logo.png">
     </div>
-    <div class="container-fluid">
       <div class="navbar">
-        <a id="home-link" href="#"><h2>Home</h2></a>
-        <a href="#"><h2>Services</h2></a>
-        <a href="#"><h2>Portofolios</h2></a>
-        <a href="#"><h2>Jobs</h2></a>
-        <a href="#"><h2>About Us</h2></a>
-        <a href="#"><h2>Contact</h2></a>
-        <a id="blog-link" href="#"><h2>Blog</h2></a>
+        <a id="home-link" class="hvr-underline-from-center" href="home.html"><h2>Home</h2></a>
+        <a href="service.html" class="hvr-underline-from-center"><h2>Services</h2></a>
+        <a href="portofolio.html" class="hvr-underline-from-center"><h2>Portofolios</h2></a>
+        <a href="job.html" class="hvr-underline-from-center"><h2>Jobs</h2></a>
+        <a href="about.html" class="hvr-underline-from-center"><h2>About Us</h2></a>
+        <a href="contact.html" class="hvr-underline-from-center"><h2>Contact</h2></a>
+        <a id="blog-link" class="hvr-underline-from-center" href="article.html"><h2>Blog</h2></a>
       </div>
       <div class="jumbotron">
+        <h2 class="jumbotron-title centered bold">Ruby On Rails, iOS and Android Project Case Studies</h2>
+        <hr class="jumbotron-line">
+        <h5 class="jumbotron-content size-15">We have our own approach to things, be it design, tech or scale. They came to us with a need and we built them beautiful creation of web and mobile apps which backed-end with Ruby On Rails technology stack</h5>
         <img id="jumbotron-logo" src="image/41studio-logo.png">
+        <img id="support-logo" src="image/support.png">
       </div>
-      <h2 class="text-center bold">Featured Ruby On Rails and Mobile Projects</h2>
-      <h5 class="text-center margin">We understand that every idea that is gushing from our client is a new color in industry
-technology. That’s why we are here to assist and develop all the ideas that our clients needed
-and make it to be the most valuable asset for our clients worldwide. Check out these 20+ Ruby
-On Rails, iOS and Android project case studies we’ve worked on :</h5>
+      <h2 class="text-center bold margin-top-100 size-30">Featured Ruby On Rails and Mobile Projects</h2>
+      <hr class="purple-line">
+      <h5 id="desc-text" class="text-center margin-340 size-15 line-height-30">We understand that every idea that is gushing from our client is a new color in industry technology. That’s why we are here to assist and develop all the ideas that our clients needed and make it to be the most valuable asset for our clients worldwide. Check out these 20+ Ruby On Rails, iOS and Android project case studies we’ve worked on :</h5>
       <div class="button-filter">
         <button class="btn-default transparent btn-filter">All Products</button>
         <button class="btn-default transparent btn-filter">Travel</button>
@@ -41,7 +44,7 @@ On Rails, iOS and Android project case studies we’ve worked on :</h5>
         <button class="btn-default transparent btn-filter">Ecommerce</button>
         <button class="btn-default transparent btn-filter">SEO/SEM</button>
       </div>
-      <div class="button-filter">
+      <div class="button-filter second">
         <button class="btn-default transparent btn-filter">Real Estate</button>
         <button class="btn-default transparent btn-filter">Workout</button>
         <button class="btn-default transparent btn-filter">Web Develop</button>
@@ -53,46 +56,49 @@ On Rails, iOS and Android project case studies we’ve worked on :</h5>
         </div>
         <div class="col-md-6">
           <div class="desc">
-            <h2 class="bold">Hishop</h2>
+            <h2 class="bold size-30">Hishop</h2>
+            <hr class="yellow-line">
             <h5>Ecommerce</h5>
             <h5 class="bold">Description</h5>
             <h5>Malaysia’s Online Beauty, Skin Care & Cosmetics Store</h5>
             <h5 class="bold">Technology</h5>
-            <h5 class="margin-right">Ruby on Rails, jQuery, PostgreSQL, Shopping Cart System,
-Payment Processing, Mailchimp, Bootstrap & Active Admin</h5>
+            <h5 class="margin-right">Ruby on Rails, jQuery, PostgreSQL, Shopping Cart System, Payment Processing, Mailchimp, Bootstrap & Active Admin</h5>
           </div>
-         <button class="btn-default transparent btn-filter margin-left-75">Visit Site</button>
+         <button class="btn-default transparent btn-filter margin-left-75 purple">Visit Site</button>
         </div>
       </div>
       <div class="row red-bar">
         <div class="col-md-3"></div>
-        <div class="col-md-1">
-          <h4>Hishop</h4>
+          <div class="col-md-1 text-center">
+            <button class="category-button"><h4 class="bold">Hishop</h4></button>
+          </div>
+          <div class="col-md-1 text-center">
+            <button class="category-button"><h4 class="bold">Pricehub</h4></button>
+          </div>
+          <div class="col-md-1">
+            <button id="legal-mate" class="category-button"><h4 class="bold">Legal Mate</h4></button>
+          </div>
+          <div class="col-md-1 text-center">
+            <button class="category-button"><h4 class="bold">Funways</h4></button>
+          </div>
+          <div class="col-md-1 text-center">
+            <button class="category-button"><h4 class="bold">Facilgo</h4></button>
+          </div>
+          <div class="col-md-1 text-center">
+            <button class="category-button"><h4 class="bold">Boatflow</h4></button>
+          </div>
+          <div class="col-md-1 text-center">
+            <button class="category-button"><h4 class="bold">Lodggy</h4></button>
+          </div>
+          <div class="col-md-2"></div>
         </div>
-        <div class="col-md-1">
-          <h4>Pricehub</h4>
-        </div>
-        <div class="col-md-1">
-          <h4>Legal Mate</h4>
-        </div>
-        <div class="col-md-1">
-          <h4>Funways</h4>
-        </div>
-        <div class="col-md-1">
-          <h4>Facilgo</h4>
-        </div>
-        <div class="col-md-1">
-          <h4>Boatflow</h4>
-        </div>
-        <div class="col-md-1">
-          <h4>Lodggy</h4>
-        </div>
-        <div class="col-md-2"></div>
+      <div class="content-bottom">
+        <h3 class="content-bottom-text">Already make up your mind? Hire our Ruby On Rails Team right away!</h3>
+        <button id="hire-button" class="btn-default transparent btn-filter margin-left-75 purple">HIRE US</button>
       </div>
-      <div class="content-bottom"></div>
       <div class="row footer">
         <div class="col-md-6">
-          <h4>Copyright 2018 41Studio All Right Reserved</h4>
+          <h4 class="bold size-20">&copy Copyright 2018 41Studio All Right Reserved</h4>
         </div>
         <div class="col-md-6"></div>
       </div>

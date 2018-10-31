@@ -1,10 +1,14 @@
+body{
+  font-family: 'Nunito';
+}
 .header{
   background-color: #f1f1f1;
   height: 70px;
+  border-bottom: 0.8px solid #e9e9e9;
 }
 #logo-header{
   width: 50px;
-  height: 55px;
+  height: 60px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
@@ -14,7 +18,6 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
 }
 .navbar a{
   color: #5d5a5a;
@@ -29,7 +32,7 @@
   margin-right: 280px;
 }
 .jumbotron{
-  background-image:url(../image/Background.jpg);
+  background:linear-gradient(180deg,rgba(35,62,100,0.3),rgba(88,146,225,0.8)),url(../image/Background.jpg);
   width: 100%;
   height: 625px;
   object-fit: cover;
@@ -37,12 +40,15 @@
   background-repeat: no-repeat;
   min-width: 100%;
   min-height: 100%;
+  margin-top: -25px;
 }
 #jumbotron-logo{
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
-  margin-top:500px;
+  position: absolute;
+  bottom: -40px;
+  left: 50px;
 }
 .what-we-do{
   margin-top: 100px;
@@ -51,33 +57,42 @@
   font-weight: bold;
 }
 #content-center{
-  margin-left:400px;
-  margin-right:400px;
+  margin-left:350px;
+  margin-right:350px;
   display: block;
   margin-bottom:100px;
+  line-height: 25px;
 }
 #front-end-image {
   width: 80%;
   height: 80%;
   float: right;
+  object-fit: contain;
 }
 .category-text,.category-text-left{
-  margin-top:50px;
+  margin-top:0px;
   font-weight: bold;
+  font-size:25px;
 }
 .category-content{
   margin-right:140px;
+  font-size: 15px;
+  line-height: 25px;
 }
 .category-content-left{
-  margin-left:110px;
+      margin-left: 110px;
+    line-height: 35px;
+    font-size: 15px;
 }
 .category-text-left{
   margin-left:110px;
+  margin-top:40px;
 }
 #mobile-dev-image{
   width: 80%;
   height: 80%;
   float: left;
+  object-fit: contain;
 }
 .margin{
   margin-left: 300px;
@@ -100,8 +115,11 @@
   margin-right: auto;
   display: block;
 }
-.content-project-based{
+.content-project-based,#project-based{
   margin-top:100px;
+}
+.content-project-based{
+      margin-right: 250px;
 }
 .blue{
   color: #42A5F5;
@@ -216,8 +234,178 @@
 .footer{
   height: 100px;
   margin-top:50px;
-  margin-bottom:20px;
   background-color: #42A5F5;
   color: white;
   padding-top: 40px;
+}
+.jumbotron-title{
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 34px;
+}
+.jumbotron-line{
+  height: 1px;
+  background-color: white;
+  width: 230px;
+  position: absolute;
+  top:55%;
+  left: 42%;
+}
+.jumbotron-content{
+  color: white;
+  text-align: center;
+  margin-left: 365px;
+  margin-right: 365px;
+  line-height: 25px;
+  position: absolute;
+  top:60%;
+  left: 0;
+}
+#support-logo{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -40px;
+  right: 50px;
+  padding: 7px;
+}
+.size-30{
+  font-size: 30px;
+}
+.red-line{
+  width: 190px;
+  background-color: #ed5250;
+  height: 1px;
+}
+.blue-line{
+  width: 145px;
+  background-color: #50a5f5;
+  height: 1px;
+  margin-left:0px;
+}
+.green-line{
+  width: 200px;
+  background-color: #66bb69;
+  height: 1px;
+  margin-top: 20px;
+}
+.margin-left-110{
+  margin-left:110px;
+}
+#desktop-dev-text{
+  margin-top:100px;
+}
+.yellow-line{
+  margin-top: 20px;
+  width: 200px;
+  background-color: #f7d835;
+  height: 1px;
+  margin-left: 0px;
+}
+.mar-top-50{
+  margin-top: 50px;
+}
+.mar-left-110{
+  margin-left: 110px;
+}
+.mar-top-0{
+  margin-top:0px;
+}
+#project-based{
+  font-size:30px;
+
+}
+.brown-line{
+  width: 200px;
+  background-color: #896f61;
+  height: 1px;
+}
+#project-based-text{
+  line-height: 25px;
+  margin-left: 340px;
+  margin-right: 340px;
+  font-size: 15px;
+  margin-top:20px;
+}
+.learn-more-button{
+  border-color: #896f61;
+  color: #896f61;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 190px;
+  height: 55px;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 15px;
+  font-weight: bold;
+}
+.content-project-based h4{
+  line-height: 25px;
+}
+.category-bar{
+  width: 100%;
+  height: 40px;
+  background-color: #896f61;
+  color: white;
+  padding-top: 10px;
+  margin-left:0px;
+  margin-top:100px;
+}
+.category-button{
+  background-color: transparent;
+  border:none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.font-30{
+  font-size: 30px;
+}
+.no-margin{
+  margin-left:none;
+}
+.tecno-content{
+  font-size: 15px;
+  line-height: 30px;
+  margin-left: 340px;
+  margin-right: 340px;
+}
+.size-15{
+  font-size: 15px;
+}
+.purple-line{
+  width: 185px;
+  background-color: #7d53c8;
+  height: 1px;
+  margin-left:43%;
+}
+.mar{
+  margin: 25px 0px 35px 0px;
+}
+.purple{
+  border-color:#7d53c8;
+  color: #7d53c8;
+}
+.size-20{
+  font-size:20px;
+}
+#front-text{
+  margin-top:40px;
+}
+.mar-top-30{
+  margin-top: 30px;
+}
+.rails{
+  width: 100px;
+  background-image: url(../image/rails.png);
 }
