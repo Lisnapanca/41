@@ -189,6 +189,9 @@ body{
   height: 1px;
 }
 #desc-team{
-      font-size: 15px;
-    line-height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+}
+.content-7{
+  background:linear-gradient(180deg,rgba(35,62,100,0.3),rgba(88,146,225,0.8)),url(../image/room.png);
 }
