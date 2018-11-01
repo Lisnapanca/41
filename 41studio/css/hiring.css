@@ -1,7 +1,9 @@
+body{
+  font-family: 'Nunito';
+}
 #android{
   height: 380px;
     margin-top: 140px;
-    margin-left: 100px;
     margin-bottom: 75px;
 }
 .bold{
@@ -11,11 +13,24 @@
   margin-top: 250px;
   font-size: 30px;
 }
-.margin-100{
-  margin-left: 100px;
-  margin-right: 100px;
+.margin-75{
+  margin-left: 75px;
 }
 .margin-400{
   margin-left: 400px;
   margin-right: 400px;
+}
+.green-line{
+  width: 125px;
+  background-color: #66bb69;
+  height: 1px;
+  margin-top: 20px;
+}
+.line-height-25{
+  line-height: 25px;
+}
+.hiring-content{
+  margin-top: 25px;
+  line-height: 30px;
+  font-size: 18px;
 }
