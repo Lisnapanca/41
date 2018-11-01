@@ -77,9 +77,9 @@ body{
   background-color:transparent;
 }
 .employee-profile{
-  width: 250px;
+  width: 350px;
   float: right;
-  margin-top: 75px;
+  margin-top: 50px;
   margin-right:50px;
   margin-bottom: 50px;
 }
@@ -93,28 +93,25 @@ body{
 }
 .footer{
   height: 100px;
-  margin-bottom:20px;
   background-color: #42A5F5;
   color: white;
   padding-top: 40px;
+  padding-left: 20px;
 }
 .learn-more-button{
-  border-color:#66bb69;
-  color: #66bb69;
+  background-color: transparent;
+  border-color: white;
+  color: white;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 120px;
-  height: 30px;
-  border-radius:5px;
+  width: 190px;
+  height: 40px;
+  border-radius: 30px;
   border-style: solid;
-}
-.content-7{
-  height: 250px;
-  color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../image/monitor.jpg);
+  font-weight: bold;
+  font-size: 15px;
+      margin-top: 30px;
 }
 .jumbotron-line{
   height: 1px;
@@ -145,7 +142,6 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
 }
 #support-logo{
   width: 50px;
@@ -193,5 +189,32 @@ body{
   line-height: 30px;
 }
 .content-7{
+  height: 350px;
+  color: white;
+  background-image: url(../image/monitor.jpg);
   background:linear-gradient(180deg,rgba(35,62,100,0.3),rgba(88,146,225,0.8)),url(../image/room.png);
+  background-position: center;
+}
+.no-margin-left{
+  margin-left: 0px;
+}
+.sosmed-image{
+  margin-top:10px;
+  width: 25px;
+  margin-right: 25px;
+  margin-left: -5px;
+}
+.title-content7{
+  padding-top: 75px;
+}
+#content-bottom{
+  line-height: 25px;
+}
+.blue-line{
+  width: 130px;
+  background-color: #50a5f5;
+  height: 1px;
+}
+.size-20{
+  font-size: 20px;
 }
