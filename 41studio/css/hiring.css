@@ -14,11 +14,12 @@ body{
   font-size: 30px;
 }
 .margin-75{
-  margin-left: 75px;
+  margin-left: 40px;
+      margin-right: -60px;
 }
-.margin-400{
-  margin-left: 400px;
-  margin-right: 400px;
+.margin-290{
+  margin-left: 290px;
+  margin-right: 290px;
 }
 .green-line{
   width: 125px;
@@ -26,11 +27,41 @@ body{
   height: 1px;
   margin-top: 20px;
 }
-.line-height-25{
-  line-height: 25px;
+.line-height-30{
+  line-height: 30px;
 }
 .hiring-content{
   margin-top: 25px;
   line-height: 30px;
   font-size: 18px;
+}
+#below-text{
+  line-height: 30px;
+  color: #66bb69;
+  margin-top:50px;
+}
+.apply-button{
+  position: relative;
+    top: 50%;
+    left: 43%;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #66bb69;
+    background-color: transparent;
+    color: #66bb69;
+    font-size: 15px;
+    margin-bottom:50px;
+    margin-top:50px;
+}
+.close-button{
+  font-size: 88px;
+    -webkit-text-stroke: 17px white;
+    color: #66bb69;
+    position: absolute;
+    right: 2%;
+    top: 15%;
+    background-color: transparent;
+    border-color: transparent;
 }
