@@ -35,8 +35,6 @@
   width: 80%;
   height: 40px;
   margin: 0 auto;
-  background-color: #f3f3f3;
-  border-radius: 30px;
   margin-top: 300px;
   margin-bottom: -330px;
 }
@@ -46,9 +44,14 @@
   margin-left: -15px;
 }
 #typing-text{
-  margin-top: 10px;
-  margin-left:10px;
-  color: grey;
+  width: 275px;
+  height: 40px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #f3f3f3;
+  font-size: 14px;
+  padding-left: 20px;
+  background-color: #f3f3f3;
 }
 .margin-left5{
   margin-left:5px;
@@ -57,6 +60,18 @@
   color: white;
 }
 .admin-name{
-  margin-left: 10px;
-    padding-top: 13px;
+  margin-left: 20px;
+  padding-top: 13px;
+  font-weight: bold;
+}
+.close-button{
+  float: right;
+  position: absolute;
+  top: 63%;
+  right: 13%;
+  background-color: transparent;
+  border: none;
+  font-size: 34px;
+  -webkit-text-stroke: 5px #62a3fa;
+  color: white;
 }
