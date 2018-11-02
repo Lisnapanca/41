@@ -87,11 +87,11 @@ body{
   width: 300px;
   height: 300px;
   object-fit: cover;
-  margin-left: 165px;
+  margin-left: 175px;
   margin-top: 100px;
 }
 #web-text{
-  margin-left: 100px;
+  margin-left: 110px;
   margin-top: 20px;
   margin-bottom: 100px;
   font-size: 30px;
@@ -113,8 +113,8 @@ body{
 }
 .category-bar{
   width: 100%;
-  height: 40px;
-  background-color: #f2a629;
+  height: 60px;
+  background-color: #f2ac00;
   color: white;
   padding-top: 10px;
   margin-left:0px;
@@ -132,24 +132,30 @@ body{
   width: 100%;
 }
 #business-text,#development-text{
-  margin-left:585px;
-  margin-top: 80px;
+      margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    font-size: 30px;
+}
+#business-text{
+      margin-left: 550px;
 }
 .blue-line{
-  width: 120px;
+  width: 180px;
   background-color: #50a5f5;
   height: 1px;
 }
 .green-line{
-  width: 170px;
+  width: 260px;
   background-color: #66bb69;
   height: 1px;
 }
 .yellow-line{
-  width: 170px;
+  width: 215px;
   background-color: #f7d835;
   height: 1px;
-  margin-left: 60px;
+  margin-left: 62px;
+  margin-top: 20px;
 }
 .red-line{
   width: 110px;
@@ -157,17 +163,17 @@ body{
   height: 1px;
 }
 #business-content{
-  margin-left: 380px;
-  margin-right: 380px;
+  margin-left: 330px;
+  margin-right: 330px;
   margin-bottom: 50px;
-  line-height: 23px;
+  line-height: 25px;
   font-size: 15px;
 }
 #development-content{
-  margin-left: 410px;
-  margin-right: 415px;
+  margin-left: 360px;
+  margin-right: 360px;
   margin-bottom: 50px;
-  line-height: 23px;
+  line-height: 25px;
   font-size: 15px;
 }
 #project-based-image,#extented-team-image{
@@ -177,9 +183,11 @@ body{
 }
 #project-based-text{
   color: #66bb69;
+  font-size: 30px;
 }
 #extended-team-text{
   color: #ed5250;
+  font-size: 30px;
 }
 .learn-more-button{
   border-color: #66bb69;
@@ -187,8 +195,8 @@ body{
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 190px;
-  height: 55px;
+  width: 200px;
+  height: 50px;
   border-radius: 5px;
   border-style: solid;
   font-size: 15px;
@@ -209,26 +217,29 @@ body{
 }
 #saying-text{
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 #mark-image{
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   float: right;
   object-fit: cover;
   margin-bottom: 50px;
+  margin-right: 25px;
 }
 #saying-content{
-  margin-right: 350px;
+  margin-right: 200px;
   display: block;
   margin-left: 45px;
   margin-top: 50px;
-  line-height: 20px;
-  font-size: 15px;
+  line-height: 25px;
+  font-size: 18px;
 }
 #people-name{
   margin-left: 60px;
+  font-size: 23px;
+  margin-top: 50px;
 }
 .blue-bar{
   background-color: #42A5F5;
@@ -355,4 +366,33 @@ body{
 }
 .size-15{
   font-size: 15px;
+}
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #f2a629;
+  margin-top: -15px;
+  margin-left: 93px;
+}
+.padding-top-18{
+  padding-top: 18px;
+}
+.bar-text{
+  font-size: 20px;
+  font-weight: bold;
+}
+.mobile,.desktop,.design{
+  display: none;
+  padding-top: 10px;
+}
+.padding-top-9{
+  padding-top: 9px;
+}
+.size-30{
+  font-size: 30px;
+}
+.blue-arrow{
+  border-bottom: 5px solid #50a5f5;
 }
