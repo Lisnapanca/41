@@ -1,8 +1,11 @@
+body{
+  font-family: 'Nunito';
+}
 .bold{
   font-weight:bold;
 }
-.marg-top300{
-  margin-top: 150px;
+.marg-top100{
+  margin-top: 100px;
 }
 .box{
   width: 250px;
@@ -27,15 +30,15 @@
   padding-top:110px;
 }
 .little-box1,.little-box2,.little-box3,.little-box4 {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    color: #62a3fa;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 75px;
-    box-shadow: 1px 1px 1px 1px #f3f3f3;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #62a3fa;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  box-shadow: 1px 1px 1px 1px #f3f3f3;
 }
 .number{
   padding-top: 15px;
@@ -48,4 +51,22 @@
 }
 .little-box4{
   color: #f2ac00;
+}
+.purple-line{
+  width: 106px;
+  background-color: #7d53c8;
+  height: 1px;
+  margin-left: 46%;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+.close-button{
+  font-size: 88px;
+  -webkit-text-stroke: 17px white;
+  color: #896f61;
+  position: absolute;
+  right: 2%;
+  top: 15%;
+  background-color: transparent;
+  border-color: transparent;
 }

@@ -51,7 +51,7 @@ body{
   padding-left: 150px;
   padding-right:150px;
   margin-bottom:150px;
-  line-height: 24px;
+  line-height: 30px;
 }
 #service-button {
   background-color: transparent;
@@ -161,12 +161,14 @@ body{
   margin-right: 380px;
   margin-bottom: 50px;
   line-height: 23px;
+  font-size: 15px;
 }
 #development-content{
-      margin-left: 410px;
-    margin-right: 415px;
-    margin-bottom: 50px;
-    line-height: 23px;
+  margin-left: 410px;
+  margin-right: 415px;
+  margin-bottom: 50px;
+  line-height: 23px;
+  font-size: 15px;
 }
 #project-based-image,#extented-team-image{
   margin-left: auto;
@@ -218,11 +220,12 @@ body{
   margin-bottom: 50px;
 }
 #saying-content{
-      margin-right: 350px;
+  margin-right: 350px;
   display: block;
   margin-left: 45px;
   margin-top: 50px;
-      line-height: 20px;
+  line-height: 20px;
+  font-size: 15px;
 }
 #people-name{
   margin-left: 60px;
@@ -349,4 +352,7 @@ body{
 .content-7{
   background:linear-gradient(180deg,rgba(35,62,100,0.3),rgba(88,146,225,0.8)),url(../image/monitor.jpg);
    background-size:cover;
+}
+.size-15{
+  font-size: 15px;
 }
