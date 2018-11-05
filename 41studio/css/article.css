@@ -53,7 +53,7 @@ body{
   margin-top: -20px;
 }
 .button-article{
-  margin:20px 0px 20px 0px;
+  margin: 20px 0px 20px 40px;
 }
 .big-article{
   width: 100%;
@@ -77,7 +77,7 @@ body{
 #logotype{
   height: 30px;
   margin-left:25px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .title{
   margin-top:50px;
@@ -85,7 +85,8 @@ body{
 }
 #categories-text{
   margin-top:50px;
-  font-size: 23px;
+  font-size: 25px;
+  margin-left:50px;
 }
 .red{
   border-color: #ef5350;
@@ -145,4 +146,9 @@ body{
 .third-button{
   background-color: #42A5F5;
   color: white;
+}
+.sosmed-logo{
+  width: 25px;
+  margin-left: -30px;
+  margin-top: 40px;
 }
