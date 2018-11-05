@@ -70,10 +70,10 @@ body{
   background-color:transparent;
 }
 .btn-filter{
-  width: 130px;
+  width: 140px;
   border-radius: 30px;
   margin-left: 20px;
-  padding: 10px;
+  padding: 8px;
   border-style: solid;
   font-size: 15px;
   font-weight: bold;
@@ -100,7 +100,7 @@ body{
 .red-bar{
   background-color:#df594a;
   color: white;
-  padding:10px;
+  padding:16px;
 }
 .content-bottom{
   width: 100%;
@@ -127,14 +127,14 @@ body{
   top: 50%;
   left: 47%;
   transform: translate(-47%, -50%);
-  font-size: 34px;
+  font-size: 30px;
 }
 .footer{
-  height: 100px;
+  height: 150px;
   background-color: #42A5F5;
   color: white;
-  padding-top: 40px;
-  padding-left: 20px;
+  padding-top: 70px;
+  padding-left: 70px;
 }
 .jumbotron-line{
   height: 1px;
@@ -142,7 +142,7 @@ body{
   width: 230px;
   position: absolute;
   top:55%;
-  left: 42%;
+  left: 41%;
 }
 .jumbotron-content{
   color: white;
@@ -186,7 +186,7 @@ body{
   margin-top: 50px;
 }
 .second{
-  margin-left: -150px;
+  margin-left: -160px;
 }
 .yellow-line{
   margin-top: 10px;
@@ -199,7 +199,7 @@ body{
   line-height: 25px;
   font-size: 15px;
 }
-.purple{
+.purple,.purple:hover{
   border-color:#7d53c8;
   color: #7d53c8;
 }
@@ -213,7 +213,7 @@ body{
   color: white;
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 100px;
 }
 #hire-button{
@@ -228,4 +228,15 @@ body{
 }
 .size-20{
   font-size: 20px;
+}
+.all-product-button,.all-product-button:hover{
+  border-color: #66bb6a;
+  color: #66bb6a;
+  background-color: #fff;
+}
+.margin-left--75{
+  margin-left: -75px;
+}
+.margin-left-50{
+  margin-left:-50px;
 }
