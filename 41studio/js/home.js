@@ -1,4 +1,31 @@
-      $(document).ready(function () {
+$(document).ready(function(){
+  $("#web").click(function(){
+      $("#web-content").show();
+      $("#mobile-content").hide();
+      $("#desktop-content").hide();
+      $("#design-content").hide();
+  });
+  $("#mobile").click(function(){
+      $("#web-content").hide();
+      $("#mobile-content").show();
+      $("#desktop-content").hide();
+      $("#design-content").hide();
+  });
+  $("#desktop").click(function(){
+      $("#web-content").hide();
+      $("#mobile-content").hide();
+      $("#desktop-content").show();
+      $("#design-content").hide();
+  });
+  $("#design").click(function(){
+      $("#web-content").hide();
+      $("#mobile-content").hide();
+      $("#desktop-content").hide();
+      $("#design-content").show();
+  });
+});
+
+$(document).ready(function () {
     $('.owl-carousel-header').owlCarousel({
     loop:true,
     margin:10,
@@ -16,5 +43,5 @@
             items:1
         }
     }
-})
+    })
 });
