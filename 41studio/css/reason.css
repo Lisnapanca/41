@@ -73,3 +73,13 @@ body{
 .size-30{
   font-size: 30px;
 }
+.backend-button,.mobile-button,.desktop-button,.design-button{
+      border: none;
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-family: courier;
+}

@@ -446,3 +446,13 @@ body{
 .hvr-underline-from-center:hover{
   color: #337ab7;
 }
+/*.backend-button,.mobile-button,.desktop-button,.design-button{
+    border: none;
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-family: courier;
+}*/
