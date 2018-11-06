@@ -97,10 +97,13 @@ body{
   margin-bottom: 100px;
   font-size: 30px;
 }
-#web-content,#mobile-content,#desktop-content,#design-content{
+#web-content,#mobile-content,#design-content{
   margin-top:200px;
 }
-.findout-button{
+#desktop-content{
+  margin-top:225px;
+}
+.findout-button,.findout-button:hover{
   background-color: transparent;
   color: #f2a629;
   width: 150px;
@@ -449,9 +452,12 @@ body{
 .hide-content{
   display: none;
 }
-.mobile-button{
-  bottom: 180px;
+.mobile-button,.mobile-button:hover{
+  bottom: -70px;
 }
 #mobile-content{
   margin-top:170px;
+}
+.desktop-button,.design-button,.desktop-button:hover,.design-button:hover{
+  bottom: -75px;
 }
