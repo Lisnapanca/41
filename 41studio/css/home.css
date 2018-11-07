@@ -128,6 +128,9 @@ body{
   padding-top: 10px;
   margin-left:0px;
 }
+#people-bar{
+  background-color :#50a5f5;
+}
 .category-button{
   background-color: transparent;
   border:none;
@@ -231,7 +234,7 @@ body{
   margin-top: 100px;
   margin-bottom: 100px;
 }
-#mark-image{
+#people1-image,#people2-image,#people3-image,#people4-image{
   width: 350px;
   height: 350px;
   border-radius: 50%;
@@ -240,7 +243,7 @@ body{
   margin-bottom: 50px;
   margin-right: 25px;
 }
-#saying-content{
+#people1-content,#people2-content,#people3-content,#people4-content{
   margin-right: 200px;
   display: block;
   margin-left: 45px;
@@ -248,7 +251,7 @@ body{
   line-height: 25px;
   font-size: 18px;
 }
-#people-name{
+#people1-name,#people2-name,#people3-name,#people4-name{
   margin-left: 60px;
   font-size: 23px;
   margin-top: 50px;
@@ -399,7 +402,7 @@ body{
   font-size: 20px;
   font-weight: bold;
 }
-#mobile-arrow,#desktop-arrow,#design-arrow{
+#mobile-arrow,#desktop-arrow,#design-arrow,#people2-arrow,#people3-arrow,#people4-arrow{
   display: none;
 }
 .padding-top-9{
