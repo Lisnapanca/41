@@ -1,23 +1,37 @@
-body{
-  font-family: 'Nunito';
-}
 .header{
-  background-color: #f1f1f1;
-  height: 70px;
+  background-color: #F8F8F8;
+  height: 90px;
   border-bottom: 0.8px solid #e9e9e9;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  opacity: 0.9;
 }
 #logo-header{
-  width: 50px;
+  width: 60px;
   height: 60px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
   display: block;
+}
+.home-logo{
+  position: fixed;
+  z-index: 99;
+  left: 50%;
+  right: 50%;
+  margin-top: 15px;
 }
 .navbar{
   width: 100%;
-  margin-left: auto;
+  margin-left: -15px;
   margin-right: auto;
+  position: fixed;
+  z-index: 9;
+  margin-top: 90px;
+  background-color: white;
+  border-radius: 0;
+  height: 60px;
+  font-family: 'Nunito';
 }
 .navbar a{
   color: #5d5a5a;
@@ -36,18 +50,18 @@ body{
   width: 100%;
   height: 625px;
   background-size: cover;
-  margin-top: -25px;
+  margin-top: 150px;
 }
 #jumbotron-logo{
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: -40px;
-  left: 50px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 50px;
+  z-index: 99;
 }
 .what-we-do{
   margin-top: 100px;
+  font-family: 'Nunito';
 }
 .bold{
   font-weight: bold;
@@ -69,6 +83,7 @@ body{
   margin-top:0px;
   font-weight: bold;
   font-size:25px;
+  font-family: 'Nunito';
 }
 .category-content{
   margin-right:140px;
@@ -94,7 +109,7 @@ body{
   margin-left: 300px;
   margin-right: 300px;
 }
-#project-based-image,#extented-team-image{
+#project-based-image,#extended-team-image{
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -103,7 +118,7 @@ body{
   margin-top:100px;
 }
 .content-project-based{
-      margin-right: 250px;
+  margin-right: 250px;
 }
 .blue{
   color: #42A5F5;
@@ -177,14 +192,14 @@ body{
   left: 0;
 }
 #support-logo{
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   background-color: white;
   object-fit: cover;
   border-radius: 50%;
-  position: absolute;
-  bottom: -40px;
-  right: 50px;
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
   padding: 7px;
 }
 .size-30{
@@ -478,4 +493,7 @@ body{
   background: url('../image/Technology-Color.png') no-repeat -222px -427px;
   width: 153px;
   height: 115px;
+}
+#extended-team-content{
+  display: none;
 }
