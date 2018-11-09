@@ -4,11 +4,11 @@
   background-color: #62a3fa;
   border-radius: 5px;
   margin: 0 auto;
-  margin-top: 180px;
+  margin-top: 0px;
 }
 .body-chat{
   width: 80%;
-  height: 100%;
+  height: auto;
   background-color:white;
   margin:0 auto;
   margin-top:-5px;
@@ -32,15 +32,16 @@
   padding-top: 10px;
 }
 .typing-message{
-  width: 80%;
+  width: 90%;
   height: 40px;
   margin: 0 auto;
-  margin-top: 300px;
-  margin-bottom: -330px;
+}
+.body-chat-container{
+  height: 300px;
 }
 .typing-fitur{
   width: 25px;
-  margin-top: 7px;
+  margin-top: 0px;
   margin-left: -15px;
 }
 #typing-text{
@@ -52,6 +53,7 @@
   font-size: 14px;
   padding-left: 20px;
   background-color: #f3f3f3;
+  outline: 0!important;
 }
 .margin-left5{
   margin-left:5px;
@@ -63,12 +65,12 @@
   margin-left: 20px;
   padding-top: 13px;
   font-weight: bold;
+  float: left;
 }
 .close-button{
   float: right;
-  position: absolute;
-  top: 63%;
-  right: 13%;
+  position: relative;
+  top: 5px;
   background-color: transparent;
   border: none;
   font-size: 34px;

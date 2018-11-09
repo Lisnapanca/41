@@ -251,6 +251,11 @@
   font-weight: bold;
   outline: 0!important;
 }
+.purple-button:active,.purple-button:focus{
+  background-color: white!important;
+  border-color: #7e57c3!important;
+  color: #7e57c3!important;
+}
 .learn-more-button:hover{
   background-color: white;
   border-color: #66bb69;
@@ -546,4 +551,23 @@
 }
 .font-helvetica{
   font-family: 'helvetica-neue' ,'sans-serif';
+}
+.profile-wrapper{
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+.profile-wrapper .row{
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+.admin-chat{
+  max-width: 400px;
+  position: fixed;
+  right: 0px;
+  bottom: 100px;
+  z-index: 999;
+  display: none;
+}
+.owl-nav{
+  display: none;
 }

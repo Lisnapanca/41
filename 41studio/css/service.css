@@ -36,6 +36,7 @@
 }
 .navbar a{
   color: #5d5a5a;
+  text-decoration: none!important;
 }
 .navbar a:hover{
   text-decoration: none;
@@ -635,4 +636,7 @@ body{
 }
 .title-nunito{
   font-family: 'Nunito';
+}
+.navbar.orange-underline .hvr-underline-from-center:before{
+  background: #f2ad00;
 }

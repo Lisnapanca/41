@@ -136,3 +136,8 @@ $(document).ready(function () {
       $( ".admin-chat" ).slideToggle( "slow" );
     });
 });
+$(document).ready(function () {
+    $( ".close-button" ).click(function() {
+      $( ".admin-chat" ).slideToggle( "slow" );
+    });
+});

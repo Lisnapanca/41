@@ -1,6 +1,3 @@
-body{
-  font-family: 'Nunito';
-}
 .header{
   background-color: #F8F8F8;
   height: 90px;
@@ -133,7 +130,7 @@ body{
 }
 .message{
   width: 108%;
-  margin-left: -32px;
+  margin-left: -45px;
   height: 200px;
 }
 .btn-left{
@@ -168,7 +165,7 @@ body{
 }
 #contact-title{
   color: white;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
   position: absolute;
   left: 170px;
@@ -321,4 +318,13 @@ body{
   left: calc(50% - 20px);
   margin-top: -20px;
   outline: 0!important;
+}
+.hvr-underline-from-center:hover{
+  color:#795548;
+}
+.content-helvetica{
+  font-family: 'helvetica-neue' ,'sans-serif';
+}
+.title-nunito{
+  font-family: 'Nunito';
 }
