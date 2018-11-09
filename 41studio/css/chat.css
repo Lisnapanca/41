@@ -74,4 +74,5 @@
   font-size: 34px;
   -webkit-text-stroke: 5px #62a3fa;
   color: white;
+  outline: 0!important;
 }

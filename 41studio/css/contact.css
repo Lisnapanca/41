@@ -2,22 +2,40 @@ body{
   font-family: 'Nunito';
 }
 .header{
-  background-color: #f1f1f1;
-  height: 70px;
+  background-color: #F8F8F8;
+  height: 90px;
   border-bottom: 0.8px solid #e9e9e9;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  opacity: 0.9;
 }
-#logo-header{
-  width: 50px;
+#header-logo{
+  width: 60px;
   height: 60px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
   display: block;
+}
+.home-logo{
+  position: fixed;
+  z-index: 99;
+  left: 49%;
+  right: 50%;
+  margin-top: 15px;
 }
 .navbar{
   width: 100%;
-  margin-left: auto;
+  margin-left: -15px;
   margin-right: auto;
+  position: fixed;
+  z-index: 9;
+  margin-top: 90px;
+  background-color: white;
+  border-radius: 0;
+  height: 60px;
+  font-family: 'Nunito';
+  box-shadow: 1px 1px 1px 3px #f3f3f3;
 }
 .navbar a{
   color: #5d5a5a;
@@ -38,16 +56,15 @@ body{
   object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: -25px;
+  margin-top: 150px;
   background-position: center;
 }
 #jumbotron-logo{
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: -40px;
-  left: 50px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 50px;
+  z-index: 99;
 }
 .bold{
   font-weight: bold;
@@ -89,6 +106,7 @@ body{
   display: flex; 
   justify-content: center;
   margin-bottom:50px;
+  outline: 0!important;
 }
 .btn-filter{
   width: 200px;
@@ -98,6 +116,7 @@ body{
   border-style: solid;
   font-size: 15px;
   font-weight: bold;
+  outline: 0!important;
 }
 .form-contact{
   margin-bottom:20px;
@@ -119,6 +138,7 @@ body{
 }
 .btn-left{
   float: right;
+  outline: 0!important;
 }
 .btn-right,.btn-left{
   width: 100%;
@@ -126,15 +146,18 @@ body{
   height: 60px;
   border-style: solid;
   background-color: white;
+  outline: 0!important;
 }
 .btn-right{
   border-color: #50a5f5;
     color: #50a5f5;
+    outline: 0!important;
 }
 .button-contact{
   width: 73%;
-      font-size: 14px;
-    font-weight: bold;
+  font-size: 14px;
+  font-weight: bold;
+  outline: 0!important;
 }
 .footer{
   height: 150px;
@@ -163,14 +186,14 @@ body{
   color: black;
 }
 #support-logo{
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   background-color: white;
   object-fit: cover;
   border-radius: 50%;
-  position: absolute;
-  bottom: -40px;
-  right: 50px;
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
   padding: 7px;
 }
 .green-line{
@@ -189,14 +212,17 @@ body{
   border-color: #50a5f5;
   background-color: #50a5f5;
   color: white;
+  outline: 0!important;
 }
 .green-button{
   color: #66bb69;
   border-color: #66bb69;
+  outline: 0!important;
 }
 .red-button{
   border-color: #ed5250;
   color: #ed5250;
+  outline: 0!important;
 }
 #requirement-text{
   margin-top: 20px;
@@ -283,4 +309,16 @@ body{
 .maps{
   width: 100%;
   height: 400px;
+}
+.back-top{
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  right: 50%;
+  left: calc(50% - 20px);
+  margin-top: -20px;
+  outline: 0!important;
 }

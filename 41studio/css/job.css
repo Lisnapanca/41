@@ -2,22 +2,40 @@ body{
   font-family: 'Nunito';
 }
 .header{
-  background-color: #f1f1f1;
-  height: 70px;
+  background-color: #F8F8F8;
+  height: 90px;
   border-bottom: 0.8px solid #e9e9e9;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  opacity: 0.9;
 }
-#logo-header{
-  width: 50px;
+#header-logo{
+  width: 60px;
   height: 60px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
   display: block;
+}
+.home-logo{
+  position: fixed;
+  z-index: 99;
+  left: 49%;
+  right: 50%;
+  margin-top: 15px;
 }
 .navbar{
   width: 100%;
-  margin-left: auto;
+  margin-left: -15px;
   margin-right: auto;
+  position: fixed;
+  z-index: 9;
+  margin-top: 90px;
+  background-color: white;
+  border-radius: 0;
+  height: 60px;
+  font-family: 'Nunito';
+  box-shadow: 1px 1px 1px 3px #f3f3f3;
 }
 .navbar a{
   color: #5d5a5a;
@@ -42,14 +60,14 @@ body{
   min-height: 100%;
   margin-top: -25px;
   background-position:center;
+  margin-top: 150px;
 }
 #jumbotron-logo{
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: -40px;
-  left: 50px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 50px;
+  z-index: 99;
 }
 .bold{
   font-weight: bold;
@@ -64,6 +82,7 @@ body{
   justify-content: center;
   margin-bottom: 50px;
   padding-right: 15px;
+  outline: 0!important;
 }
 .btn-filter{
   width: 150px;
@@ -74,6 +93,7 @@ body{
   font-size: 15px;
   font-weight: bold;
   color: #707070;
+  outline: 0!important;
 }
 #android-dev{
   float: right;
@@ -134,16 +154,17 @@ body{
   height: 30px;
   border-radius:5px;
   border-style: solid;
+  outline: 0!important;
 }
 #support-logo{
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   background-color: white;
   object-fit: cover;
   border-radius: 50%;
-  position: absolute;
-  bottom: -40px;
-  right: 50px;
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
   padding: 7px;
 }
 .jumbotron-line{
@@ -223,6 +244,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
+  outline: 0!important;
 }
 .content-bottom{
   width: 100%;
@@ -246,6 +268,7 @@ body{
   position: absolute;
   left: 550px;
   margin-top: 50px;
+  outline: 0!important;
 }
 .transparent{
   background-color:transparent;
@@ -264,6 +287,7 @@ body{
   color: #ef5350;
   border-color: #ef5350;
   background-color: white;
+  outline: 0!important;
 }
 .arrow-up {
   width: 0;
@@ -279,4 +303,25 @@ body{
 }
 .no-pad-top{
   padding-top: 0px;
+}
+.modal-fullwidth{
+  width: 100%;
+  display: none;
+  position: fixed;
+  top: 150px;
+  height: 100vh;
+  background: #fff;
+  z-index: 8;
+}
+.back-top{
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  right: 50%;
+  left: calc(50% - 20px);
+  margin-top: -20px;
+  outline: 0!important;
 }

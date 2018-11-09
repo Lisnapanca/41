@@ -69,17 +69,19 @@ body{
   top: 15%;
   background-color: transparent;
   border-color: transparent;
+  outline: 0!important;
 }
 .size-30{
   font-size: 30px;
 }
 .backend-button,.mobile-button,.desktop-button,.design-button{
-      border: none;
-    color: black;
-    width: 200px;
-    height: 50px;
-    margin-left: 120px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    font-family: courier;
+  border: none;
+  color: black;
+  width: 200px;
+  height: 50px;
+  margin-left: 120px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  font-family: courier;
+  outline: 0!important;
 }

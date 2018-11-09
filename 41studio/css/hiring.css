@@ -55,6 +55,7 @@ body{
   font-size: 15px;
   margin-bottom:50px;
   margin-top:50px;
+  outline: 0!important;
 }
 .close-button{
   font-size: 88px;
@@ -65,4 +66,5 @@ body{
   top: 15%;
   background-color: transparent;
   border-color: transparent;
+  outline: 0!important;
 }

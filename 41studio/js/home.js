@@ -126,3 +126,13 @@ $('.back-top').on('click', function (e) {
             scrollTop: 0
         }, 700);
     });
+$(document).ready(function () {
+    $( "#content1-logo" ).click(function() {
+      $( ".sosmed-logo-wrapper" ).slideToggle( "slow" );
+    });
+});
+$(document).ready(function () {
+    $( "#support-image" ).click(function() {
+      $( ".admin-chat" ).slideToggle( "slow" );
+    });
+});

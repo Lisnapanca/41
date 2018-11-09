@@ -11,6 +11,7 @@
   left: 20px;
   border-radius: 50px;
   z-index: 99;
+  widows: 60px;
 }
 #support-image{
   width: 65px;
@@ -22,6 +23,7 @@
   bottom: 15px;
   right: 20px;
   padding: 7px;
+  z-index: 99;
 }
 .header{
   background-color: #F8F8F8;
@@ -50,6 +52,7 @@
   border-radius: 0;
   height: 60px;
   font-family: 'Nunito';
+  box-shadow: 1px 1px 1px 3px #f3f3f3;
 }
 .navbar a{
   color: #5d5a5a;
@@ -78,14 +81,15 @@
   background-image: linear-gradient(to top, #233e64, #305281, #3d66a0, #4a7cc0, #5892e1);
   color: white;
   width: 100%;
-  height: 100%;
+  height: 618px;
 }
 #text-left-content1{
-  padding-left: 150px;
-  padding-right:150px;
+  padding-left: 135px;
+  padding-right:135px;
   margin-bottom:150px;
   line-height: 30px;
-  font-family: 'helvetica-neue' sans-serif;
+  margin-top: -30px;
+  font-family: 'helvetica-neue' ,'sans-serif';
 }
 #service-button {
   background-color: transparent;
@@ -94,11 +98,12 @@
   width: 200px;
   height: 50px;
   position: absolute;
-  bottom: 80px;
+  bottom: 95px;
   right: 240px;
   border-color: white;
   padding-top: 5px;
   border-style: solid;
+  outline: 0!important;
 }
 #code-image{
   width: 100%;
@@ -113,7 +118,7 @@
   width: 300px;
   height: 300px;
   object-fit: cover;
-  margin-left: 185px;
+  margin-left: 180px;
   margin-top: 100px;
 }
 #web-text,#mobile-text,#desktop-text,#design-text{
@@ -121,6 +126,7 @@
   margin-top: 20px;
   margin-bottom: 100px;
   font-size: 30px;
+  font-family:'Nunito';
 }
 #web-content,#mobile-content,#design-content{
   margin-top:200px;
@@ -135,10 +141,11 @@
   height: 50px;
   border-color: #f2a629;
   border-radius: 5px;
-  left: 320px;
+  left: 280px;
   position: absolute;
   bottom: 200px;
   border-style: solid;
+  outline: 0!important;
 }
 .findout-text{
   padding-top: 6px;
@@ -161,6 +168,7 @@
   border:none;
   margin-left: auto;
   margin-right: auto;
+  outline: 0!important;
 }
 .content3{
   width: 100%;
@@ -199,12 +207,12 @@
   height: 1px;
 }
 #business-content{
-  margin-left: 330px;
-  margin-right: 330px;
+  margin-left: 300px;
+  margin-right: 300px;
   margin-bottom: 50px;
-  font-family: 'helvetica-neue' sans-serif;
-  line-height: 30px;
+  font-family: 'helvetica-neue' ,'sans-serif';
   font-size: 15px;
+  line-height: 30px;
 }
 #development-content{
   margin-left: 360px;
@@ -212,6 +220,7 @@
   margin-bottom: 50px;
   line-height: 30px;
   font-size: 15px;
+  font-family: 'helvetica-neue' ,'sans-serif';
 }
 #project-based-image,#extended-team-image{
   margin-left: auto;
@@ -240,6 +249,7 @@
   border-style: solid;
   font-size: 15px;
   font-weight: bold;
+  outline: 0!important;
 }
 .learn-more-button:hover{
   background-color: white;
@@ -249,6 +259,7 @@
 .red-button,.red-button:hover{
   color:#ed5250;
   border-color:#ed5250;
+  outline: 0!important;
 }
 #development-process-image{
   margin-left:auto;
@@ -258,10 +269,13 @@
 .purple-button,.purple-button:hover{
   color: #7e57c3;
   border-color:#7e57c3;
+  outline: 0!important;
 }
 #saying-text{
   margin-top: 100px;
   margin-bottom: 100px;
+  font-family: 'Nunito';
+  font-size: 30px;
 }
 #people1-image,#people2-image,#people3-image,#people4-image{
   width: 350px;
@@ -317,7 +331,7 @@
   margin-bottom:50px;
 }
 .content-7{
-  height: 300px;
+  height: 350px;
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
@@ -346,6 +360,7 @@
   margin-top:50px;
   font-size: 30px;
   font-weight: bold;
+  font-family: 'Nunito';
 }
 .bold{
   font-weight: bold;
@@ -359,9 +374,6 @@
   font-size: 60px;
   color: #fff;
   text-align: center;
-}
-.owl-carousel-header{
-
 }
 .owl-carousel-header .owl-dot span{
   background-color: transparent!important;
@@ -389,6 +401,7 @@
   margin-top: 30px;
   font-size: 20px;
   color: #707070;
+  font-family: 'Nunito';
 }
 .transparent{
   background-color: transparent;
@@ -397,6 +410,7 @@
   border-color:white;
   color: white;
   background-color: transparent;
+  outline: 0!important;
 }
 .content-7{
   background:url(../image/monitor.jpg);
@@ -452,19 +466,21 @@
   right: 50%;
   left: calc(50% - 20px);
   margin-top: -20px;
+  outline: 0!important;
 }
 #web-content{
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 0px;
+  padding-right: 70px;
   margin-bottom: 150px;
   line-height: 30px;
   font-size: 20px;
-  font-family: 'helvetica-neue' sans-serif;
+  font-family: 'helvetica-neue' ,'sans-serif';
 }
 .bottom-text{
   line-height: 30px;
   margin-left: 50px;
   margin-right: 50px;
+  font-family: 'helvetica-neue' ,'sans-serif';
 }
 .margin-top-20{
   margin-top: 20px;
@@ -477,6 +493,7 @@
 }
 .mobile-button,.mobile-button:hover{
   bottom: -70px;
+  outline: 0!important;
 }
 #mobile-content{
   margin-top:170px;
@@ -484,6 +501,7 @@
 }
 .desktop-button,.design-button,.desktop-button:hover,.design-button:hover{
   bottom: -75px;
+  outline: 0!important;
 }
 .mobile,.desktop,.design{
   display: none;
@@ -497,7 +515,7 @@
 .home-logo{
   position: fixed;
   z-index: 99;
-  left: 50%;
+  left: 49%;
   right: 50%;
   margin-top: 15px;
 }
@@ -506,4 +524,26 @@
 }
 #blue-background{
   background:linear-gradient(180deg,rgba(43, 49, 59, 0.3),rgba(110, 147, 200, 0.8));
+}
+#people1-part{
+  margin-top:100px;
+}
+.sosmed-logo-wrapper{
+  position: fixed;
+  bottom: 90px;
+  display: none;
+  left: 20px;
+  z-index: 999999;
+}
+.logo-sosmed{
+  padding: 5px;
+  width: 80px;
+  margin-left: -5px;
+}
+.article-part{
+  font-family: 'Nunito';
+  color: #707070;
+}
+.font-helvetica{
+  font-family: 'helvetica-neue' ,'sans-serif';
 }

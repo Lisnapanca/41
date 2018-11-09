@@ -17,7 +17,7 @@
 .home-logo{
   position: fixed;
   z-index: 99;
-  left: 50%;
+  left: 49%;
   right: 50%;
   margin-top: 15px;
 }
@@ -32,6 +32,7 @@
   border-radius: 0;
   height: 60px;
   font-family: 'Nunito';
+  box-shadow: 1px 1px 1px 3px #f3f3f3;
 }
 .navbar a{
   color: #5d5a5a;
@@ -114,7 +115,7 @@
   margin-right: auto;
   display: block;
 }
-.content-project-based,#project-based{
+.content-project-based,#project-based,.mar-top-100{
   margin-top:100px;
 }
 .content-project-based{
@@ -156,15 +157,17 @@
   margin-bottom:75px;
 }
 .footer{
-  height: 120px;
+  height: 150px;
   background-color: #62a3fa;
   color: white;
-  padding-top: 60px;
+  padding-top: 75px;
 }
 .jumbotron-title{
   font-size: 35px;
   text-align: center;
   color: white;
+  margin-top: 60px;
+  font-family: 'Nunito';
 }
 .centered {
   position: absolute;
@@ -178,7 +181,7 @@
   background-color: white;
   width: 230px;
   position: absolute;
-  top:55%;
+  top:62%;
   left: 42%;
 }
 .jumbotron-content{
@@ -188,7 +191,7 @@
   margin-right: 365px;
   line-height: 25px;
   position: absolute;
-  top:60%;
+  top:70%;
   left: 0;
 }
 #support-logo{
@@ -273,6 +276,7 @@
   border-style: solid;
   font-size: 15px;
   font-weight: bold;
+  outline: 0!important;
 }
 .learn-more-button:hover{
   border-color: #896f61;
@@ -296,6 +300,7 @@
   border:none;
   margin-left: auto;
   margin-right: auto;
+  outline: 0!important;
 }
 .font-30{
   font-size: 30px;
@@ -319,7 +324,7 @@
   margin-left:43%;
 }
 .mar{
-  margin: 25px 0px 35px 0px;
+  margin: -65px 0px 35px 0px;
 }
 .purple{
   border-color:#7d53c8;
@@ -496,4 +501,141 @@
 }
 #extended-team-content{
   display: none;
+}
+body{
+  font-family: 'Nunito';
+}
+.bold{
+  font-weight:bold;
+}
+.marg-top100{
+  margin-top: 100px;
+}
+.box{
+  width: 250px;
+  height: 250px;
+  background-color: #62a3fa;
+  border-radius:50%;
+  margin-left: 30px;
+  margin-top:-75px;
+}
+.box-2{
+  background-color: #df594a;
+}
+.box-3{
+  background-color: #77bc63;
+}
+.box-4{
+  background-color: #f2ac00;
+}
+.white{
+  color: white;
+}
+.text-box1,.text-box2,.text-box3,.text-box4{
+  padding-top:110px;
+}
+.little-box1,.little-box2,.little-box3,.little-box4 {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #62a3fa;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  box-shadow: 1px 1px 1px 1px #f3f3f3;
+}
+.number{
+  padding-top: 15px;
+}
+.little-box2{
+  color:#df594a;
+}
+.little-box3{
+  color:  #77bc63;
+}
+.little-box4{
+  color: #f2ac00;
+}
+.purple-line{
+  width: 106px;
+  background-color: #7d53c8;
+  height: 1px;
+  margin-left: 46%;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+.close-button{
+  font-size: 88px;
+  -webkit-text-stroke: 17px white;
+  color: #896f61;
+  position: absolute;
+  outline: 0!important;
+  right: 2%;
+  top: 15px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.size-30{
+  font-size: 30px;
+}
+.backend-button,.mobile-button,.desktop-button,.design-button{
+  border: none;
+  color: black;
+  width: 200px;
+  height: 50px;
+  margin-left: 120px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  font-family: courier;
+  outline: 0!important;
+}
+.modal-fullwidth{
+  width: 100%;
+  display: none;
+  position: fixed;
+  top: 150px;
+  height: 100vh;
+  background: #fff;
+  z-index: 8;
+}
+.sosmed-logo-wrapper{
+  position: fixed;
+  bottom: 90px;
+  display: none;
+  left: 20px;
+}
+.logo-sosmed{
+  padding: 5px;
+  width: 80px;
+  margin-left: -5px;
+}
+.copyright{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.back-top{
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  right: 50%;
+  left: calc(50% - 20px);
+  margin-top: -20px;
+  outline: 0!important;
+}
+.hvr-underline-from-center{
+  fill: red;
+}
+.font-helvetica{
+  font-family: 'helvetica-neue' ,'sans-serif';
+}
+.content-helvetica{
+  font-family: 'helvetica-neue' ,'sans-serif';
+}
+.title-nunito{
+  font-family: 'Nunito';
 }
