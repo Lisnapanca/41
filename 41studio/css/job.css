@@ -321,7 +321,16 @@ body{
   height: 40px;
   background-color: white;
   right: 50%;
-  left: calc(50% - 20px);
+  left: 50%;
   margin-top: -20px;
   outline: 0!important;
+}
+.hvr-underline-from-center:hover{
+  color:#84b209;
+}
+.content-helvetica{
+  font-family: 'helvetica-neue' ,'sans-serif';
+}
+.title-nunito{
+  font-family: 'Nunito';
 }
