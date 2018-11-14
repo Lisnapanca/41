@@ -12,7 +12,7 @@ $(document).ready(function () {
     $( ".learn-more-button" ).click(function() {
       $( ".modal-fullwidth" ).show();
     });
-    $( ".close-button" ).click(function() {
+    $( ".exit-button" ).click(function() {
       $( ".modal-fullwidth" ).hide();
     });
 });
@@ -34,7 +34,12 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
-    $( "#support-image" ).click(function() {
+    $( "#support-logo" ).click(function() {
+      $( ".admin-chat" ).slideToggle( "slow" );
+    });
+});
+$(document).ready(function () {
+    $( ".close-button" ).click(function() {
       $( ".admin-chat" ).slideToggle( "slow" );
     });
 });

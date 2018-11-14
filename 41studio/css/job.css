@@ -334,3 +334,22 @@ body{
 .title-nunito{
   font-family: 'Nunito';
 }
+.sosmed-logo-wrapper{
+  position: fixed;
+  bottom: 90px;
+  display: none;
+  left: 20px;
+}
+.logo-sosmed{
+  padding: 5px;
+  width: 75px;
+  margin-left: -5px;
+}
+.admin-chat{
+  max-width: 400px;
+  position: fixed;
+  right: 0px;
+  bottom: 100px;
+  z-index: 999;
+  display: none;
+}

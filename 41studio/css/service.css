@@ -566,7 +566,7 @@ body{
   margin-top: 25px;
   margin-bottom: 100px;
 }
-.close-button{
+.exit-button{
   font-size: 88px;
   -webkit-text-stroke: 17px white;
   color: #896f61;
@@ -608,7 +608,7 @@ body{
 }
 .logo-sosmed{
   padding: 5px;
-  width: 80px;
+  width: 75px;
   margin-left: -5px;
 }
 .copyright{
@@ -639,4 +639,12 @@ body{
 }
 .navbar.orange-underline .hvr-underline-from-center:before{
   background: #f2ad00;
+}
+.admin-chat{
+  max-width: 400px;
+  position: fixed;
+  right: 0px;
+  bottom: 100px;
+  z-index: 999;
+  display: none;
 }

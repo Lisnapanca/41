@@ -12,10 +12,18 @@
     <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link rel="stylesheet" type="text/css" href="css/job.css">
     <link rel="stylesheet" type="text/css" href="css/hiring.css">
+    <link rel="stylesheet" type="text/css" href="css/chat.css">
 
     <title>Job</title>
   </head>
   <body>
+     <div class="sosmed-logo-wrapper">
+      <img class="logo-sosmed" src="image/Instagram.png">
+      <br><img class="logo-sosmed" src="image/linkedin.png">
+      <br><img class="logo-sosmed" src="image/G+.png">
+      <br><img class="logo-sosmed" src="image/Twitter.png">
+      <br><img class="logo-sosmed" src="image/facebook.png">
+    </div>
     <div class="hiring-page modal-fullwidth">
       <button class="glyphicon glyphicon-remove close-button"></button>
       <div class="container">
@@ -109,7 +117,7 @@
           <h5 class="text-center content-hiring content-helvetica">We are looking for someone that has strong experience with developing user interfaces for applications on the Android using the Android SDK. If you are interested in joining a world-class team of passionate people and industry veterans who like to work hard and play hard, we look forward to hearing from you soon!</h5>
           <div class="row button-hiring">
             <div class="col-md-6">
-              <button class="btn-default transparent btn-filter float-right blue learn-more-button">LEARN MORE</button>
+              <button class="btn-default transparent btn-filter float-right blue">LEARN MORE</button>
             </div>
             <div class="col-md-6">
               <button class="btn-default transparent btn-filter yellow">APPLY NOW</button>
@@ -152,12 +160,47 @@
         </div>
         <div class="col-md-6"></div>
       </div>
-
+      <div class="admin-chat">
+        <div id="admin-chat" class="row">
+          <div class="col-xs-12">
+            <div class="header-chat">
+              <h4 class="bold color-white admin-name">Allen Aprilia Begista</h4>
+              <button class="glyphicon glyphicon-remove close-button"></button>
+            </div>
+            <div class="body-chat">
+              <div class="row body-chat-container">
+                <div class="col-md-3">
+                  <img id="admin-image" src="image/allen.jpg">
+                </div>
+                <div class="col-md-9">
+                  <div class="box-chat">
+                    <h4>Hello, Can i help you?</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="typing-message">
+                <div class="row">
+                  <div class="col-md-8">
+                    <input id="typing-text" type="text" name="typing" placeholder ="Type your message...">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="typing-fitur margin-left5" src="image/clip.png">
+                  </div>
+                  <div class="col-md-2">
+                    <img class="typing-fitur" src="image/send.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/job.js"></script>
   </body>
 </html>
