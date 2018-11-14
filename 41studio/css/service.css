@@ -344,9 +344,6 @@
 .hvr-underline-from-center:hover{
   color: #f2ad00;
 }
-.hvr-underline-from-center{
-  border-color:#f2ad00;
-}
 .text-bar,.text-bar-bottom{
   font-size: 20px;
   padding-top: 18px;
@@ -639,6 +636,7 @@ body{
 }
 .navbar.orange-underline .hvr-underline-from-center:before{
   background: #f2ad00;
+  color: #f2ad00;
 }
 .admin-chat{
   max-width: 400px;

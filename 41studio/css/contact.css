@@ -322,6 +322,9 @@
 .hvr-underline-from-center:hover{
   color:#795548;
 }
+.hvr-underline-from-center:before{
+  background:#795548;
+}
 .content-helvetica{
   font-family: 'helvetica-neue' ,'sans-serif';
 }

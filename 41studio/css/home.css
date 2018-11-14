@@ -278,7 +278,6 @@
 }
 #saying-text{
   margin-top: 100px;
-  margin-bottom: 100px;
   font-family: 'Nunito';
   font-size: 30px;
 }
@@ -570,4 +569,8 @@
 }
 .owl-nav{
   display: none;
+}
+.hvr-underline-from-center:before{
+  background:#4da4d9;
+  color:#4da4d9;
 }
