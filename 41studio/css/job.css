@@ -68,6 +68,7 @@ body{
   left: 20px;
   border-radius: 50px;
   z-index: 99;
+  border:2px solid #f1f1f1;
 }
 .bold{
   font-weight: bold;
@@ -166,6 +167,7 @@ body{
   bottom: 15px;
   right: 20px;
   padding: 7px;
+  border:2px solid #f1f1f1;
 }
 .jumbotron-line{
   height: 1px;

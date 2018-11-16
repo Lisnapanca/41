@@ -11,7 +11,8 @@
   left: 20px;
   border-radius: 50px;
   z-index: 99;
-  widows: 60px;
+  width: 60px;
+  border:2px solid #f1f1f1;
 }
 #support-image{
   width: 65px;
@@ -24,6 +25,7 @@
   right: 20px;
   padding: 7px;
   z-index: 99;
+  border:2px solid #f1f1f1;
 }
 .header{
   background-color: #F8F8F8;
