@@ -11,8 +11,8 @@ body{
   opacity: 0.9;
 }
 #header-logo{
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -69,6 +69,7 @@ body{
   border-radius: 50px;
   z-index: 99;
   border:2px solid #f1f1f1;
+  width: 60px;
 }
 .bold{
   font-weight: bold;
@@ -158,8 +159,8 @@ body{
   outline: 0!important;
 }
 #support-logo{
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   background-color: white;
   object-fit: cover;
   border-radius: 50%;

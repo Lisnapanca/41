@@ -15,8 +15,8 @@
   border:2px solid #f1f1f1;
 }
 #support-image{
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   background-color: white;
   object-fit: cover;
   border-radius: 50%;
@@ -37,8 +37,8 @@
   opacity: 0.9;
 }
 #logo-header{
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -149,6 +149,11 @@
   border-style: solid;
   outline: 0!important;
 }
+.findout-button:active,.findout-button:focus{
+  background-color:transparent!important;
+  color: #f2a629!important;
+  border-color: #f2a629!important;
+}
 .findout-text{
   padding-top: 6px;
   font-size: 20px;
@@ -252,6 +257,21 @@
   font-size: 15px;
   font-weight: bold;
   outline: 0!important;
+}
+.learn-more-button:active,.learn-more-button:focus{
+  background-color:white!important;
+  border-color:#66bb69!important;
+  color: #66bb69!important;
+}
+.bottom-button:active,.bottom-button:focus{
+  color: white!important;
+  background-color:transparent!important;
+  border-color:white!important;
+}
+.red-button:active,.red-button:focus{
+  color:#ed5250!important;
+  border-color:#ed5250!important;
+  background-color: white;
 }
 .purple-button:active,.purple-button:focus{
   background-color: white!important;
@@ -575,4 +595,19 @@
 .hvr-underline-from-center:before{
   background:#4da4d9;
   color:#4da4d9;
+}
+@media screen and (max-width: 900px) { 
+  #home-link{
+    margin-left: 0px;
+  }
+  #blog-link{
+    margin-right:0px;
+  }
+  #web-image{
+    margin-left: 65px;
+  }
+  #web-image, #mobile-image, #desktop-image, #design-image{
+    width: 200px;
+    height: 200px;
+  }
 }

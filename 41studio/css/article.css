@@ -8,8 +8,8 @@
   opacity: 0.9;
 }
 #header-logo{
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -87,7 +87,7 @@ height: 150px;
 #logotype{
   height: 30px;
   margin-left:25px;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 .title{
   margin-top:50px;
@@ -164,7 +164,7 @@ height: 150px;
 .sosmed-logo{
   width: 25px;
   margin-left: -30px;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 .main-content{
   margin-top:90px;
